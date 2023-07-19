@@ -29,5 +29,13 @@
         "american"
       ]
     }
+  ],
+  "users": [
+    {
+      "userId": 1,
+      "username": "mohammadali_saeidi",
+      "password": 1234,
+
+    }
   ]
 }
