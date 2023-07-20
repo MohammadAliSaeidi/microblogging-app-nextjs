@@ -35,7 +35,29 @@
       "userId": 1,
       "username": "mohammadali_saeidi",
       "password": 1234,
-
+      "email": "1saeidima@gmail.com",
+      "fullName": "MohammadAli Saeidi",
+      "avatar": null,
+      "bio": "A happy person!",
+      "createdAt": "2023-07-29T08:43:54.660Z",
+      "followers": [
+        2
+      ],
+      "following": [
+        2
+      ],
+      "posts": [
+        1
+      ],
+      "notifications": [
+        1
+      ],
+      "settings": {
+        // dark/default/light
+        "theme": "dark",
+        // private/public
+        "page-visibility": "public"
+      }
     }
   ]
 }
