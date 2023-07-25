@@ -7,7 +7,7 @@
       "userId": 9,
       "postTime": "2023-07-19T08:43:54.660Z",
       "lastEditTime": "2023-07-29T08:43:54.660Z",
-      "replyId": null,
+      "replyId": 2,
       "likes": 1,
       "tags": [
         "history",
@@ -34,7 +34,7 @@
     {
       "userId": 1,
       "username": "mohammadali_saeidi",
-      "password": 1234,
+      "password": "1234",
       "email": "1saeidima@gmail.com",
       "fullName": "MohammadAli Saeidi",
       "avatar": null,
@@ -53,9 +53,7 @@
         1
       ],
       "settings": {
-        // dark/default/light
         "theme": "dark",
-        // private/public
         "page-visibility": "public"
       }
     }
