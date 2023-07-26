@@ -10,6 +10,7 @@
     "json-server": "node mock-api/customRoutes.js"
   },
   "dependencies": {
+    "antd": "^5.7.3",
     "axios": "^1.4.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",

@@ -1,6 +1,11 @@
 :root {
-    --dark-bg: #0b0b0b;
+    --dark-bg: #fff;
     --card-bg: #111111;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body {

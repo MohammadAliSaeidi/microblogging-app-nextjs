@@ -3,6 +3,7 @@
 import {useState} from 'react'
 import {useRouter} from 'next/navigation'
 import './signup.css'
+import axios from "axios";
 
 function Signup() {
     const router = useRouter()
@@ -19,8 +20,8 @@ function Signup() {
 
     const registerUser = async (e) => {
         e.preventDefault()
-        RegisterUser(formData)
-
+        const result = await axios.post('/api/login', userData, {baseURL: process.env.JSON_SERVER_BASE_URL})
+        console.log(result)
     }
 
     return <div className='bg'>
