@@ -1,13 +1,14 @@
 import React from 'react';
 import Logo from '../Logo'
-import SearchBar from "@/app/components/SearchBar";
+import { Input } from 'antd';
+const { Search } = Input;
 import './Header.css'
 
 function Header(props) {
     return (
         <header>
             <Logo/>
-            <SearchBar />
+            <Search placeholder="input search loading default" loading={false} />
         </header>
     );
 }
