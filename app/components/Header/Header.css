@@ -1,6 +1,15 @@
 header {
     display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
     background-color: #f6f6f6;
-    width: 100dvw;
     z-index: 100;
+    padding: 8px 48px;
+    min-height: 48px;
+}
+
+header > .search-bar{
+    max-width: 250px;
+
 }

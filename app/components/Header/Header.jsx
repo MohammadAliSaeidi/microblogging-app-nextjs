@@ -1,14 +1,17 @@
 import React from 'react';
 import Logo from '../Logo'
-import { Input } from 'antd';
-const { Search } = Input;
-import './Header.css'
+import {Avatar, Input} from 'antd';
 
-function Header(props) {
+const {Search} = Input;
+import './Header.css'
+import UserAvatar from "@/app/components/UserAvatar/UserAvatar";
+
+function Header() {
     return (
         <header>
             <Logo/>
-            <Search placeholder="input search loading default" loading={false} />
+            <Search size={"large"} className='search-bar' placeholder="Search anything" loading={false}/>
+            <UserAvatar />
         </header>
     );
 }

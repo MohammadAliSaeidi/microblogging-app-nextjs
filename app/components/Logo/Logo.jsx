@@ -4,7 +4,7 @@ import React from 'react';
 
 function Logo(props) {
     return (
-        <div>Website logo</div>
+        <div className='website-logo'>Website logo</div>
     );
 }
 

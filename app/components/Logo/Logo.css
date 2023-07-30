@@ -1,0 +1,5 @@
+.website-logo {
+    display: inline-block;
+    white-space: nowrap;
+    height: min-content;
+}

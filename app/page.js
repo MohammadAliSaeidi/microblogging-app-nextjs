@@ -2,6 +2,7 @@
 
 import {signIn, signOut, useSession} from "next-auth/react";
 import Header from "@/app/components/Header";
+import Posts from "@/app/components/Posts";
 
 
 function Home() {
@@ -15,7 +16,10 @@ function Home() {
     //     </div>
     // }
 
-    return <Header />
+    return <div className='home-page'>
+        <Header/>
+        <Posts />
+    </div>
 
 }
 
